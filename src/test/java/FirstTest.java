@@ -1,8 +1,10 @@
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
@@ -15,7 +17,7 @@ public class FirstTest {
     @Before
     public void setUp() throws Exception{
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("platfotmName","Android");
+        capabilities.setCapability("platformName","Android");
         capabilities.setCapability("deviceName","AndroidTestDevice");
         capabilities.setCapability("platformVersion","8.0");
         capabilities.setCapability("automationName","Appium");
@@ -30,7 +32,18 @@ public class FirstTest {
         driver.quit();
     }
     @Test
-    public void firstTest() {
-        System.out.println("First test run");
+    public void firstTest()
+    {
+        WebElement element_to_init_search = driver.findElementByXPath("//*[contains(@text,'Search Wikipedia')]");
+        element_to_init_search.click();
+        isTextSearchPresentsInTheSearchLine("Search…");
     }
+
+    private void isTextSearchPresentsInTheSearchLine (String text) {
+        WebElement element_to_enter_search_line = driver.findElementById("org.wikipedia:id/search_src_text");
+        String textInTheSearchLine = element_to_enter_search_line.getAttribute("text");
+        boolean contains = textInTheSearchLine.contains(text);
+        Assert.assertTrue("Required text does not present in the Search line", contains);
+    }
+
 }
