@@ -14,23 +14,7 @@ import java.net.URL;
  * Created by User on 22.11.2018.
  */
 public class SetDriver {
-    public static EventFiringWebDriver driver;
-    protected static class MyListener extends AbstractWebDriverEventListener {
-        @Override
-        public void beforeFindBy(By by, WebElement element, WebDriver driver) {
-            System.out.println(by);
-        }
-
-        @Override
-        public void afterFindBy(By by, WebElement element, WebDriver driver) {
-            System.out.println(by + " found");
-        }
-
-        @Override
-        public void onException(Throwable throwable, WebDriver driver) {
-            System.out.println(throwable);
-        }
-    }
+    public static AndroidDriver driver;
     @Before
     public void setUp() throws Exception {
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -42,8 +26,8 @@ public class SetDriver {
         capabilities.setCapability("appActivity", ".main.MainActivity");
         capabilities.setCapability("app", "C:\\Users\\User\\Documents\\GitHub\\JavaAppiumAutomation\\apks\\org.wikipedia.apk");
 
-        driver = new EventFiringWebDriver(new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities));
-        driver.register(new SecondTest.MyListener()); }
+        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+       }
 
     @After
     public void tearDown() {

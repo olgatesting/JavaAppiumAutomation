@@ -33,7 +33,7 @@ public class TestBase extends SetDriver
         wait.until(ExpectedConditions.presenceOfElementLocated(by)).sendKeys(text);
     }
 
-    protected void waitForElmentAndEnterText(By by, String text) {
+    protected void waitForElementAndEnterText(By by, String text) {
         waitForElementAndEnterText(by, "element not founs", 10, text);
     }
 

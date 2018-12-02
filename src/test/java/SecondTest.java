@@ -1,5 +1,10 @@
 /**
  * Created by User on 21.11.2018.
+ * Написать тест, который:
+ 1)Ищет какое-то слово
+ 2)Убеждается, что найдено несколько статей
+ 3)Отменяет поиск
+ 4)Убеждается, что результат поиска пропал
  */
 
 import org.junit.Assert;
@@ -9,25 +14,25 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.List;
+
 
 /**
  * Created by User on 12.11.2018.
  */
 public class SecondTest  extends TestBase{
-    @FindBy(id = "org.wikipedia:id/search_src_text")
-    private WebElement searchField;
-
     private String wikiSearchXPath = "//*[contains(@text,'Search Wikipedia')]";
     private String searchLineId ="org.wikipedia:id/search_src_text";
-    private String searchResultXPath = "//*[contains(@resource-id,'org.wikipedia:id/page_list_item_container'])";
+    private String searchResultXPath = "//*[contains(@resource-id,'org.wikipedia:id/page_list_item_container')]";
 
     @Test
     public void secondTest() {
         waitForWikiSearchAndClick(By.xpath(wikiSearchXPath));
-        waitForSearchLinetAndEnterText(By.id(searchLineId), "lego");
+        waitForSearchLineAndEnterText(By.id(searchLineId), "lego");
+
         checkIfMoreThenOneSearchResultPresent(By.xpath(searchResultXPath), "Search result are not found or only one");
-        searchField.clear();
+        driver.findElement(By.id("org.wikipedia:id/search_src_text")).clear();
 
         Assert.assertTrue(
                waitForElementDisappear(driver.findElements(By.xpath(searchResultXPath)),
@@ -37,7 +42,9 @@ public class SecondTest  extends TestBase{
     private void checkIfMoreThenOneSearchResultPresent(By by, String errorMessage) {
         WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.withMessage(errorMessage);
-        Assert.assertTrue(wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by)).size()>1);
+        List<WebElement> list = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
+        System.out.println("There are "+list.size() + " results on the page");
+        Assert.assertTrue(list.size()>1);
     }
 
     private void waitForWikiSearchAndClick(By by, String errorMessage, long timeoutInSeconds) {
@@ -52,7 +59,7 @@ public class SecondTest  extends TestBase{
         waitForElementAndEnterText(by,errorMessage,timeoutInSeconds,text);
     }
 
-    private void waitForSearchLinetAndEnterText(By by, String text) {
+    private void waitForSearchLineAndEnterText(By by, String text) {
         waitForSearchLineAndEnterText(by, "element not found", 10, text);
     }
 
