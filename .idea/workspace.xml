@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edcaac6c-2d8b-4988-b502-b6fac50cf738" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ThirdTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/SetDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,12 +26,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="39" column="72" lean-forward="false" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
+                <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
+                <element signature="method#waitForElmentAndEnterText#0;class#TestBase#0" expanded="false" />
+                <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+              <folding>
+                <element signature="class#MyListener#0;class#SetDriver#0" expanded="false" />
+                <element signature="method#setUp#0;class#SetDriver#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -39,19 +57,28 @@
       <file leaf-file-name="SecondTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="5" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="417">
+              <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#checkIfMoreThenOneSearchResultPresent#0;class#SecondTest#0" expanded="false" />
+                <element signature="method#waitForWikiSearchAndClick#0;class#SecondTest#0" expanded="false" />
+                <element signature="method#waitForSearchLineAndEnterText#0;class#SecondTest#0" expanded="false" />
+                <element signature="method#waitForSearchLinetAndEnterText#0;class#SecondTest#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThirdTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ThirdTest.java">
+      <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="613">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,6 +109,9 @@
         <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SetDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SecondTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
       </list>
     </option>
@@ -89,7 +119,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1612" />
+    <option name="width" value="1604" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectView">
@@ -107,7 +137,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,8 +189,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,28 +203,7 @@
       <recent name="C:\Users\User\Documents\GitHub\JavaAppiumAutomation\apks" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest">
-    <configuration default="false" name="MainClassTest.testGetClassNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JavaAppiumAutomation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
-      <option name="METHOD_NAME" value="testGetClassNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SecondTest">
     <configuration default="false" name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="JavaAppiumAutomation" />
@@ -265,6 +274,27 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SecondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JavaAppiumAutomation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -497,19 +527,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MainClassTest.testGetClassNumber" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MainClassTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MainClassTest.testGetClassString" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FirstTest.firstTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MainClassTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MainClassTest.testGetClassString" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTest.firstTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FirstTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SecondTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FirstTest.firstTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MainClassTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MainClassTest.testGetClassString" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MainClassTest.testGetClassNumber" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SecondTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FirstTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTest.firstTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MainClassTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MainClassTest.testGetClassString" />
       </list>
     </recent_temporary>
   </component>
@@ -527,35 +557,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2018.11.21 at 12h 15m 31s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="SecondTest - 2018.11.21 at 22h 43m 33s.xml">
+      <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest - 2018.11.21 at 12h 16m 15s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="SecondTest - 2018.11.21 at 22h 44m 12s.xml">
+      <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest - 2018.11.21 at 12h 17m 51s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="SecondTest - 2018.11.21 at 22h 48m 52s.xml">
+      <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest - 2018.11.21 at 12h 18m 45s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="SecondTest - 2018.11.21 at 22h 53m 30s.xml">
+      <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest - 2018.11.21 at 12h 20m 49s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="SecondTest - 2018.11.21 at 22h 56m 40s.xml">
+      <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest - 2018.11.21 at 12h 22m 56s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="SecondTest - 2018.11.21 at 22h 58m 46s.xml">
+      <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest - 2018.11.21 at 12h 23m 19s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="SecondTest - 2018.11.21 at 23h 55m 03s.xml">
+      <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.11.07 at 13h 33m 52s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="SecondTest - 2018.11.21 at 23h 56m 41s.xml">
+      <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.11.07 at 15h 03m 12s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="SecondTest - 2018.11.22 at 11h 44m 48s.xml">
+      <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest_testGetClassNumber - 2018.11.07 at 13h 31m 33s.xml">
-      <configuration name="MainClassTest.testGetClassNumber" configurationId="JUnit" />
+    <history-entry file="SecondTest - 2018.11.22 at 11h 56m 43s.xml">
+      <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -568,25 +598,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1604" height="876" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23418574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72409153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2609536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26748705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -597,6 +626,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966322" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -610,7 +640,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -619,6 +649,60 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="72" lean-forward="false" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+          <folding>
+            <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElmentAndEnterText#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="class#MyListener#0;class#SetDriver#0" expanded="false" />
+            <element signature="method#setUp#0;class#SetDriver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkIfMoreThenOneSearchResultPresent#0;class#SecondTest#0" expanded="false" />
+            <element signature="method#waitForWikiSearchAndClick#0;class#SecondTest#0" expanded="false" />
+            <element signature="method#waitForSearchLineAndEnterText#0;class#SecondTest#0" expanded="false" />
+            <element signature="method#waitForSearchLinetAndEnterText#0;class#SecondTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkIfMoreThenOneSearchResultPresent#0;class#SecondTest#0" expanded="false" />
+            <element signature="method#waitForWikiSearchAndClick#0;class#SecondTest#0" expanded="false" />
+            <element signature="method#waitForSearchLineAndEnterText#0;class#SecondTest#0" expanded="false" />
+            <element signature="method#waitForSearchLinetAndEnterText#0;class#SecondTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -678,26 +762,56 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBasis.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MainClassTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ThirdTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="39" column="72" lean-forward="false" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+          <folding>
+            <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElmentAndEnterText#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="class#MyListener#0;class#SetDriver#0" expanded="false" />
+            <element signature="method#setUp#0;class#SetDriver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkIfMoreThenOneSearchResultPresent#0;class#SecondTest#0" expanded="false" />
+            <element signature="method#waitForWikiSearchAndClick#0;class#SecondTest#0" expanded="false" />
+            <element signature="method#waitForSearchLineAndEnterText#0;class#SecondTest#0" expanded="false" />
+            <element signature="method#waitForSearchLinetAndEnterText#0;class#SecondTest#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="613">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

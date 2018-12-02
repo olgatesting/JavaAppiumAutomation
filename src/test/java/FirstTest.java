@@ -36,10 +36,10 @@ public class FirstTest {
     {
         WebElement element_to_init_search = driver.findElementByXPath("//*[contains(@text,'Search Wikipedia')]");
         element_to_init_search.click();
-        isTextSearchPresentsInTheSearchLine("Search…");
+        assertTextSearchPresentsInTheSearchLine("Search…");
     }
 
-    private void isTextSearchPresentsInTheSearchLine (String text) {
+    private void assertTextSearchPresentsInTheSearchLine (String text) {
         WebElement element_to_enter_search_line = driver.findElementById("org.wikipedia:id/search_src_text");
         String textInTheSearchLine = element_to_enter_search_line.getAttribute("text");
         boolean contains = textInTheSearchLine.contains(text);
