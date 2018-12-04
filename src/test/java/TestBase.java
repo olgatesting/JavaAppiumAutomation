@@ -42,4 +42,20 @@ public class TestBase extends SetDriver
         wait.withMessage(errorMessage + "\n");
         return wait.until(ExpectedConditions.invisibilityOfAllElements(list));
     }
+
+    protected void waitForWikiSearchAndClick(By by, String errorMessage, long timeoutInSeconds) {
+        waitForElementAndClick(by, errorMessage,timeoutInSeconds);
+    }
+
+    protected void waitForWikiSearchAndClick(By by) {
+        waitForWikiSearchAndClick(by, "No such element", 10);
+    }
+
+    protected void waitForSearchLineAndEnterText(By by, String errorMessage, long timeoutInSeconds, String text) {
+        waitForElementAndEnterText(by,errorMessage,timeoutInSeconds,text);
+    }
+
+    protected void waitForSearchLineAndEnterText(By by, String text) {
+        waitForSearchLineAndEnterText(by, "element not found", 10, text);
+    }
 }

@@ -22,6 +22,7 @@ import java.util.List;
  * Created by User on 12.11.2018.
  */
 public class SecondTest  extends TestBase{
+    private static String searchText = "lego";
     private String wikiSearchXPath = "//*[contains(@text,'Search Wikipedia')]";
     private String searchLineId ="org.wikipedia:id/search_src_text";
     private String searchResultXPath = "//*[contains(@resource-id,'org.wikipedia:id/page_list_item_container')]";
@@ -29,8 +30,7 @@ public class SecondTest  extends TestBase{
     @Test
     public void secondTest() {
         waitForWikiSearchAndClick(By.xpath(wikiSearchXPath));
-        waitForSearchLineAndEnterText(By.id(searchLineId), "lego");
-
+        waitForSearchLineAndEnterText(By.id(searchLineId), searchText);
         checkIfMoreThenOneSearchResultPresent(By.xpath(searchResultXPath), "Search result are not found or only one");
         driver.findElement(By.id("org.wikipedia:id/search_src_text")).clear();
 
@@ -45,22 +45,6 @@ public class SecondTest  extends TestBase{
         List<WebElement> list = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
         System.out.println("There are "+list.size() + " results on the page");
         Assert.assertTrue(list.size()>1);
-    }
-
-    private void waitForWikiSearchAndClick(By by, String errorMessage, long timeoutInSeconds) {
-        waitForElementAndClick(by, errorMessage,timeoutInSeconds);
-    }
-
-    private void waitForWikiSearchAndClick(By by) {
-        waitForWikiSearchAndClick(by, "No such element", 10);
-    }
-
-    private void waitForSearchLineAndEnterText(By by, String errorMessage, long timeoutInSeconds, String text) {
-        waitForElementAndEnterText(by,errorMessage,timeoutInSeconds,text);
-    }
-
-    private void waitForSearchLineAndEnterText(By by, String text) {
-        waitForSearchLineAndEnterText(by, "element not found", 10, text);
     }
 
 }
