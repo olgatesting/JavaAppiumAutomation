@@ -15,13 +15,12 @@ import java.util.List;
  */
 public class ThirdTest extends TestBase{
     private static String searchText = "sun";
-    private String wikiSearchXPath = "//*[contains(@text,'Search Wikipedia')]";
-    private String searchLineId ="org.wikipedia:id/search_src_text";
+
     private String searchResultTextsXPath = "//*[contains(@resource-id,'org.wikipedia:id/page_list_item_title')]";
     @Test
     public void checkSearchResultsTest() {
-        waitForWikiSearchAndClick(By.xpath(wikiSearchXPath));
-        waitForSearchLineAndEnterText(By.id(searchLineId), searchText);
+        waitForWikiSearchAndClick();
+        waitForSearchLineAndEnterText(searchText);
         List<WebElement> list = waitListOfResultsTexts(By.xpath(searchResultTextsXPath),"search results not found");
        for (WebElement element: list) {
            String text = element.getAttribute("text").toString().toLowerCase();

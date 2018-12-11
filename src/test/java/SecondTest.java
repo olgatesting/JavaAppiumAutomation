@@ -11,7 +11,6 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -23,19 +22,17 @@ import java.util.List;
  */
 public class SecondTest  extends TestBase{
     private static String searchText = "lego";
-    private String wikiSearchXPath = "//*[contains(@text,'Search Wikipedia')]";
-    private String searchLineId ="org.wikipedia:id/search_src_text";
     private String searchResultXPath = "//*[contains(@resource-id,'org.wikipedia:id/page_list_item_container')]";
 
     @Test
     public void secondTest() {
-        waitForWikiSearchAndClick(By.xpath(wikiSearchXPath));
-        waitForSearchLineAndEnterText(By.id(searchLineId), searchText);
+        waitForWikiSearchAndClick();
+        waitForSearchLineAndEnterText(searchText);
         checkIfMoreThenOneSearchResultPresent(By.xpath(searchResultXPath), "Search result are not found or only one");
         driver.findElement(By.id("org.wikipedia:id/search_src_text")).clear();
 
         Assert.assertTrue(
-               waitForElementDisappear(driver.findElements(By.xpath(searchResultXPath)),
+               waitForElementsDisappear(driver.findElements(By.xpath(searchResultXPath)),
                        "search results do not disappear", 10));
     }
 
