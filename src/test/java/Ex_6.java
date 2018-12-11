@@ -15,15 +15,15 @@ public class Ex_6  extends TestBase{
     private static String searchText = "Java";
     private String articlesTitlesID = "org.wikipedia:id/view_page_title_text";
     @Test
-    public void assertElementPresent() {
+    public void assertTitlePresent() {
         waitForWikiSearchAndClick();
         waitForSearchLineAndEnterText(searchText);
         List<WebElement> searchResults = waitForSearchResultsList();
         waitForElementsAndClickOnTheItem(searchResults,0);
-        Assert.assertTrue(assertArticleTitlePresent());
+        Assert.assertTrue(assertElementPresent());
     }
 
-    protected boolean assertArticleTitlePresent() {
+    protected boolean assertElementPresent() {
         try {
             driver.findElement(By.id(articlesTitlesID));
             return true;
