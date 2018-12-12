@@ -8,5 +8,6 @@ public class Ex_7 {
    // Нужно добавить в блок @Before в метод public void setUp(), который выполняется перед каждым тестом,
     // например driver.rotate(ScreenOrientation.PORTRAIT);
     //Таким же образом можно использовать аннотацию @After
+    //Пример тут: https://github.com/olgatesting/JavaAppiumAutomation/blob/master/src/test/java/SetDriver.java
 
 }
