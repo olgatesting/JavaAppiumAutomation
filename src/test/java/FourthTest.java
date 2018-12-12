@@ -2,6 +2,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.List;
 
 /**
@@ -29,17 +32,21 @@ public class FourthTest extends TestBase {
         Assert.assertTrue("titles not equal",articleTitle.equals(firstArticleTitle));
 
     }
- protected void deleteArticleFromReadingList (String articleName) {
-     waitForElementAndClick(By.xpath("//android.widget.FrameLayout[@content-desc=\"My lists\"]"));
-     waitForElementAndClick(By.xpath("//*[@text='"+readingBookName+"']"));
-     swipeElementToLeft(By.xpath("//*[@text='"+articleName+"']"), "article should be deleted not found");
-     waitForElementDisappear(By.xpath("//*[@text='"+articleName+"']"),"second article don't disappear", 5);
- }
+    protected void waitForElementsAndClickOnTheItem(List<WebElement> list,int i, long timeOutInSec){
+        if (i>=list.size()) {
+            throw new IndexOutOfBoundsException("in the method waitForElementsAndClickOnTheItem insert i more then List od WebElement size");
+            //  Assert.fail("in the method waitForElementsAndClickOnTheItem insert i more then List od WebElement size");
+        }
+        WebDriverWait wait = new WebDriverWait(driver, timeOutInSec);
+        wait.withMessage(list.get(i).toString() + " is not clickable or not present");
+        wait.until(ExpectedConditions.elementToBeClickable(list.get(i)));
+        list.get(i).click();
+    }
     protected String searchForArticleAndSaveTitle(int i) {
         waitForWikiSearchAndClick();
         waitForSearchLineAndEnterText(searchText);
         List<WebElement> searchResults = waitForSearchResultsList();
-        waitForElementsAndClickOnTheItem(searchResults,i);
+        waitForElementsAndClickOnTheItem(searchResults,i, 5);
         String articleTitle = waitForElementPresents(By.id(articlesTitlesID), "article title not found", 5).getAttribute("text");
         System.out.println("article Title is "+ articleTitle);
         return articleTitle;
@@ -59,5 +66,11 @@ public class FourthTest extends TestBase {
         String bookListName= "//*[@text='"+readingBookName+"']";
         waitForElementAndClick(By.xpath(bookListName), "book List not found" , 5);
         waitForElementAndClick(By.xpath("//android.widget.ImageButton[@content-desc=\"Navigate up\"]"), "X button not found", 5);
+    }
+    protected void deleteArticleFromReadingList (String articleName) {
+        waitForElementAndClick(By.xpath("//android.widget.FrameLayout[@content-desc=\"My lists\"]"));
+        waitForElementAndClick(By.xpath("//*[@text='"+readingBookName+"']"));
+        swipeElementToLeft(By.xpath("//*[@text='"+articleName+"']"), "article should be deleted not found");
+        waitForElementDisappear(By.xpath("//*[@text='"+articleName+"']"),"second article don't disappear", 5);
     }
 }

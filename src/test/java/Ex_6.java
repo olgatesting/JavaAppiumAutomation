@@ -19,18 +19,11 @@ public class Ex_6  extends TestBase{
         waitForWikiSearchAndClick();
         waitForSearchLineAndEnterText(searchText);
         List<WebElement> searchResults = waitForSearchResultsList();
-        waitForElementsAndClickOnTheItem(searchResults,0);
-        Assert.assertTrue(assertElementPresent());
+        waitForElementsAndClickOnTheItem(searchResults,0, 10);
+        assertElementPresent(By.id(articlesTitlesID));
     }
 
-    protected boolean assertElementPresent() {
-        try {
-            driver.findElement(By.id(articlesTitlesID));
-            return true;
-        } catch (NoSuchElementException e) {
-            System.out.println("Article title not found");
-          //  e.printStackTrace();
-            return false;
-        }
+    protected void assertElementPresent(By by) {
+            waitForElementPresents(by, "Element"+by.toString()+" not found on the page", 0);
     }
 }

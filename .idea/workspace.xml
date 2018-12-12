@@ -4,6 +4,8 @@
     <list default="true" id="edcaac6c-2d8b-4988-b502-b6fac50cf738" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Ex_6.java" afterPath="$PROJECT_DIR$/src/test/java/Ex_6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FourthTest.java" afterPath="$PROJECT_DIR$/src/test/java/FourthTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +25,69 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SetDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FourthTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FourthTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="15" selection-end-column="53" />
+              <folding>
+                <element signature="method#waitForElementsAndClickOnTheItem#0;class#FourthTest#0" expanded="false" />
+                <element signature="method#searchForArticleAndSaveTitle#0;class#FourthTest#0" expanded="false" />
+                <element signature="method#addArticleToReadingListFirstTime#0;class#FourthTest#0" expanded="false" />
+                <element signature="method#addOneMoreArticleToTheReadingList#0;class#FourthTest#0" expanded="false" />
+                <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ex_6.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Ex_6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="27" column="93" lean-forward="false" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
+            <state relative-caret-position="162">
+              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="108" selection-end-column="13" />
               <folding>
                 <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
                 <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
@@ -40,41 +100,12 @@
                 <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
                 <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
                 <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
                 <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementPresents#1;class#TestBase#0" expanded="false" />
                 <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
                 <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
                 <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
                 <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FourthTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FourthTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
-                <element signature="method#addArticleToReadingListFirstTime#0;class#FourthTest#0" expanded="false" />
-                <element signature="method#addOneMoreArticleToTheReadingList#0;class#FourthTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ex_6.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Ex_6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -111,8 +142,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ThirdTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SecondTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FourthTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Ex_6.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FourthTest.java" />
       </list>
     </option>
   </component>
@@ -137,6 +168,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,9 +221,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,26 +588,26 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Ex_6 - 2018.12.11 at 21h 14m 24s.xml">
+    <history-entry file="Ex_6 - 2018.12.12 at 12h 25m 19s.xml">
       <configuration name="Ex_6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ex_6 - 2018.12.11 at 21h 16m 59s.xml">
+    <history-entry file="Ex_6 - 2018.12.12 at 12h 26m 27s.xml">
       <configuration name="Ex_6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FourthTest - 2018.12.11 at 20h 18m 32s.xml">
-      <configuration name="FourthTest" configurationId="JUnit" />
+    <history-entry file="Ex_6 - 2018.12.12 at 12h 27m 54s.xml">
+      <configuration name="Ex_6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FourthTest - 2018.12.11 at 20h 22m 16s.xml">
-      <configuration name="FourthTest" configurationId="JUnit" />
+    <history-entry file="Ex_6 - 2018.12.12 at 12h 28m 25s.xml">
+      <configuration name="Ex_6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FourthTest - 2018.12.11 at 20h 23m 42s.xml">
-      <configuration name="FourthTest" configurationId="JUnit" />
+    <history-entry file="Ex_6 - 2018.12.12 at 12h 45m 28s.xml">
+      <configuration name="Ex_6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FourthTest - 2018.12.11 at 20h 41m 11s.xml">
-      <configuration name="FourthTest" configurationId="JUnit" />
+    <history-entry file="Ex_6 - 2018.12.12 at 12h 46m 25s.xml">
+      <configuration name="Ex_6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FourthTest - 2018.12.11 at 20h 42m 44s.xml">
-      <configuration name="FourthTest" configurationId="JUnit" />
+    <history-entry file="Ex_6 - 2018.12.12 at 12h 49m 07s.xml">
+      <configuration name="Ex_6" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FourthTest - 2018.12.11 at 20h 44m 48s.xml">
       <configuration name="FourthTest" configurationId="JUnit" />
@@ -604,19 +635,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3001346" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3001346" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28173575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28562176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -637,18 +668,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/FourthTest.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -657,6 +680,56 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="93" lean-forward="false" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
+          <folding>
+            <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementSearchAndClick#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementAndEnterText#1;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementsDisappear#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForWikiSearchAndClick#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
+            <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
+            <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
+            <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FourthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="method#waitForElementsAndClickOnTheItem#0;class#FourthTest#0" expanded="false" />
+            <element signature="method#searchForArticleAndSaveTitle#0;class#FourthTest#0" expanded="false" />
+            <element signature="method#addArticleToReadingListFirstTime#0;class#FourthTest#0" expanded="false" />
+            <element signature="method#addOneMoreArticleToTheReadingList#0;class#FourthTest#0" expanded="false" />
+            <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Ex_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -673,14 +746,12 @@
             <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -690,10 +761,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
+            <element signature="method#waitForElementsAndClickOnTheItem#0;class#FourthTest#0" expanded="false" />
+            <element signature="method#searchForArticleAndSaveTitle#0;class#FourthTest#0" expanded="false" />
             <element signature="method#addArticleToReadingListFirstTime#0;class#FourthTest#0" expanded="false" />
             <element signature="method#addOneMoreArticleToTheReadingList#0;class#FourthTest#0" expanded="false" />
+            <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,10 +774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="113" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,14 +805,12 @@
             <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,10 +830,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="32" column="71" lean-forward="false" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -786,14 +850,12 @@
             <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -802,10 +864,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="e#1325#1326#0" expanded="false" />
-            <element signature="e#1354#1355#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -813,10 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,14 +899,12 @@
             <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -859,10 +913,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="e#1325#1326#0" expanded="false" />
-            <element signature="e#1354#1355#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -870,10 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -900,14 +948,12 @@
             <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -916,10 +962,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="e#1325#1326#0" expanded="false" />
-            <element signature="e#1354#1355#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,10 +970,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -938,10 +978,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -998,24 +1035,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBasis.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MainClassTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="e#1325#1326#0" expanded="false" />
-            <element signature="e#1354#1355#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ThirdTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1029,16 +1048,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="459">
           <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="27" column="93" lean-forward="false" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
+        <state relative-caret-position="162">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="108" selection-end-column="13" />
           <folding>
             <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
@@ -1051,35 +1086,34 @@
             <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#1;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
             <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
             <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FourthTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="15" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
+            <element signature="method#waitForElementsAndClickOnTheItem#0;class#FourthTest#0" expanded="false" />
+            <element signature="method#searchForArticleAndSaveTitle#0;class#FourthTest#0" expanded="false" />
             <element signature="method#addArticleToReadingListFirstTime#0;class#FourthTest#0" expanded="false" />
             <element signature="method#addOneMoreArticleToTheReadingList#0;class#FourthTest#0" expanded="false" />
+            <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Ex_6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="194">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -79,7 +79,7 @@ public class TestBase extends SetDriver
         WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.withMessage("search results not present");
         List<WebElement> list = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(searchResultXPath)));
-        //System.out.println("There are "+list.size() + " results on the page");
+        System.out.println("There are "+list.size() + " results on the page");
         return list;
     }
     protected WebElement waitForElementPresents(By by, String error_message){
@@ -97,16 +97,16 @@ public class TestBase extends SetDriver
         wait.withMessage(by.toString()+ " no such element on the page");
         return wait.until(ExpectedConditions.presenceOfElementLocated(by));
     }
-    protected void waitForElementsAndClickOnTheItem(List<WebElement> list, int i){
-            try {
-                list.get(i).click();
-            } catch (NoSuchElementException e) {
-                System.out.println("no such element on the page " + list.get(i).toString());
+    protected void waitForElementsAndClickOnTheItem(List<WebElement> list,int i, long timeOutInSec){
+        if (i>=list.size()) {
+            throw new IndexOutOfBoundsException("in the method waitForElementsAndClickOnTheItem insert i more then List od WebElement size");
+          //  Assert.fail("in the method waitForElementsAndClickOnTheItem insert i more then List od WebElement size");
         }
-              catch (IndexOutOfBoundsException e1) {
-             System.out.println("no such element on the page, Index Out Of Bound Exception ");
-}
-    }
+        WebDriverWait wait = new WebDriverWait(driver, timeOutInSec);
+        wait.withMessage(list.get(i).toString() + " is not clickable or not present");
+        wait.until(ExpectedConditions.elementToBeClickable(list.get(i)));
+        list.get(i).click();
+            }
 
     protected void waitForElementAndClear(By by) {
         waitForElementPresents(by).clear();
@@ -156,5 +156,16 @@ public class TestBase extends SetDriver
                 moveTo(left_x, middle_y).
                 release().
                 perform();
+    }
+
+    protected boolean isElementPresent(By by) {
+        try {
+            driver.findElement(by);
+            return true;
+        } catch (NoSuchElementException e) {
+            System.out.println("Element title not found");
+            //  e.printStackTrace();
+            return false;
+        }
     }
 }
