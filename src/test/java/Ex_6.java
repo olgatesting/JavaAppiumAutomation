@@ -1,6 +1,8 @@
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -11,9 +13,13 @@ import java.util.NoSuchElementException;
  * Написать тест, который открывает статью и убеждается, что у нее есть элемент title. Важно: тест не должен дожидаться
  * появления title, проверка должна производиться сразу. Если title не найден - тест падает с ошибкой. Метод можно назвать assertElementPresent.
  */
+
+
 public class Ex_6  extends TestBase{
     private static String searchText = "Java";
     private String articlesTitlesID = "org.wikipedia:id/view_page_title_text";
+
+
     @Test
     public void assertTitlePresent() {
         waitForWikiSearchAndClick();
@@ -21,6 +27,7 @@ public class Ex_6  extends TestBase{
         List<WebElement> searchResults = waitForSearchResultsList();
         waitForElementsAndClickOnTheItem(searchResults,0, 10);
         assertElementPresent(By.id(articlesTitlesID));
+
     }
 
     protected void assertElementPresent(By by) {
