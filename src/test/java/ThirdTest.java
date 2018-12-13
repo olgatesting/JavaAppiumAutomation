@@ -1,3 +1,5 @@
+import lib.CoreTestCase;
+import lib.ui.MainPageObject;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -13,27 +15,29 @@ import java.util.List;
  Ищет какое-то слово
  Убеждается, что в каждом результате поиска есть это слово.
  */
-public class ThirdTest extends TestBase{
+public class ThirdTest extends CoreTestCase {
     private static String searchText = "sun";
-
     private String searchResultTextsXPath = "//*[contains(@resource-id,'org.wikipedia:id/page_list_item_title')]";
+    private MainPageObject mainPageObject;
+
+    @Override
+    protected void setUp() throws Exception {
+        super.setUp();
+        mainPageObject = new MainPageObject(driver);
+    }
+    @Override
+    protected void tearDown() throws Exception {
+        super.tearDown();
+    }
     @Test
-    public void checkSearchResultsTest() {
-        waitForWikiSearchAndClick();
-        waitForSearchLineAndEnterText(searchText);
-        List<WebElement> list = waitListOfResultsTexts(By.xpath(searchResultTextsXPath),"search results not found");
+    public void testSearchResults() {
+        mainPageObject.waitForWikiSearchAndClick();
+        mainPageObject.waitForSearchLineAndEnterText(searchText);
+        List<WebElement> list = mainPageObject.waitListOfResultsTexts(By.xpath(searchResultTextsXPath),"search results not found");
        for (WebElement element: list) {
            String text = element.getAttribute("text").toString().toLowerCase();
            Assert.assertTrue("there is no searchTextInTheResults", text.contains(searchText.toLowerCase()));
            System.out.println("word "+ searchText + " presents in the text " + text);
        }
     }
-
-    private List<WebElement> waitListOfResultsTexts(By by, String errorMessage) {
-        WebDriverWait wait = new WebDriverWait(driver, 15);
-        wait.withMessage(errorMessage);
-        List<WebElement> list = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
-        return list;
-    }
-
 }
