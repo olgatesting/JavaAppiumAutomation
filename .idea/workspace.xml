@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edcaac6c-2d8b-4988-b502-b6fac50cf738" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Ex_7.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ArticleTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ChangeAppConditionsTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MyListsTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/MyListsPageObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/NavigationUI.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/SetDriver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Ex_6.java" afterPath="$PROJECT_DIR$/src/test/java/Ex_6.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SetDriver.java" afterPath="$PROJECT_DIR$/src/test/java/SetDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FourthTest.java" afterPath="$PROJECT_DIR$/src/test/java/FourthTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ThirdTest.java" afterPath="$PROJECT_DIR$/src/test/java/ThirdTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,80 +36,49 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FourthTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FourthTest.java">
+      <file leaf-file-name="MyListsTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MyListsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+            <state relative-caret-position="121">
+              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#twoArticlesSaving#0;class#FourthTest#0" expanded="false" />
-                <element signature="method#waitForElementsAndClickOnTheItem#0;class#FourthTest#0" expanded="false" />
-                <element signature="method#searchForArticleAndSaveTitle#0;class#FourthTest#0" expanded="false" />
-                <element signature="method#addArticleToReadingListFirstTime#0;class#FourthTest#0" expanded="false" />
-                <element signature="method#addOneMoreArticleToTheReadingList#0;class#FourthTest#0" expanded="false" />
-                <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetDriver.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
+      <file leaf-file-name="SearchTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SearchTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ex_7.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Ex_7.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="27" column="90" lean-forward="true" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="176" column="10" lean-forward="true" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="24" />
+            <state relative-caret-position="538">
+              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding>
-                <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementSearchAndClick#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementAndEnterText#1;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementsDisappear#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForWikiSearchAndClick#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
-                <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
-                <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
-                <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
-                <element signature="method#swipeElementToLeft#0;class#TestBase#0" expanded="false" />
-                <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThirdTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ThirdTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,6 +92,15 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>searchForArticleAndSaveTitle</find>
+      <find>search</find>
+      <find>waitForSearchLineAndEnterTex</find>
+      <find>waitForSearchLineAndEnterText</find>
+      <find>clear</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -131,21 +119,32 @@
         <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ThirdTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SecondTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FourthTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Ex_6.java" />
         <option value="$PROJECT_DIR$/src/test/java/SetDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/Ex_7.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/ui/NavigationUI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/ui/MyListsPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/ui/SearchPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/ui/MainPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/CoreTestCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SecondTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ThirdTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FourthTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Ex_6.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyListsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ArticleTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ChangeAppConditionsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyListsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SearchTests.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1604" />
+    <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectView">
@@ -163,8 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -213,9 +210,37 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaAppiumAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaAppiumAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,28 +254,7 @@
       <recent name="C:\Users\User\Documents\GitHub\JavaAppiumAutomation\apks" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ex_6">
-    <configuration default="false" name="SecondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JavaAppiumAutomation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FirstTest.testSearch">
     <configuration default="false" name="ThirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="JavaAppiumAutomation" />
@@ -272,35 +276,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FourthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FourthTest.testTwoArticlesSaving" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="JavaAppiumAutomation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FourthTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FourthTest.twoArticlesSaving" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JavaAppiumAutomation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FourthTest" />
-      <option name="METHOD_NAME" value="twoArticlesSaving" />
+      <option name="METHOD_NAME" value="testTwoArticlesSaving" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -323,6 +306,48 @@
       <option name="MAIN_CLASS_NAME" value="Ex_6" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Ex_6.testTitlePresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JavaAppiumAutomation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ex_6" />
+      <option name="METHOD_NAME" value="testTitlePresent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FirstTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JavaAppiumAutomation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -553,19 +578,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SecondTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ThirdTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FourthTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FourthTest.twoArticlesSaving" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Ex_6" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ThirdTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FourthTest.testTwoArticlesSaving" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Ex_6" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Ex_6.testTitlePresent" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTest.testSearch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Ex_6" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FourthTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FourthTest.twoArticlesSaving" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ThirdTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SecondTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTest.testSearch" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Ex_6.testTitlePresent" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Ex_6" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FourthTest.testTwoArticlesSaving" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ThirdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -583,35 +608,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Ex_6 - 2018.12.12 at 12h 26m 27s.xml">
+    <history-entry file="Ex_6 - 2018.12.14 at 18h 31m 21s.xml">
       <configuration name="Ex_6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ex_6 - 2018.12.12 at 12h 27m 54s.xml">
+    <history-entry file="Ex_6 - 2018.12.14 at 18h 32m 48s.xml">
       <configuration name="Ex_6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ex_6 - 2018.12.12 at 12h 28m 25s.xml">
-      <configuration name="Ex_6" configurationId="JUnit" />
+    <history-entry file="Ex_6_testTitlePresent - 2018.12.14 at 18h 32m 21s.xml">
+      <configuration name="Ex_6.testTitlePresent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ex_6 - 2018.12.12 at 12h 45m 28s.xml">
-      <configuration name="Ex_6" configurationId="JUnit" />
+    <history-entry file="Ex_6_testTitlePresent - 2018.12.14 at 18h 33m 51s.xml">
+      <configuration name="Ex_6.testTitlePresent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ex_6 - 2018.12.12 at 12h 46m 25s.xml">
-      <configuration name="Ex_6" configurationId="JUnit" />
+    <history-entry file="FirstTest_testSearch - 2018.12.15 at 20h 23m 31s.xml">
+      <configuration name="FirstTest.testSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ex_6 - 2018.12.12 at 12h 49m 07s.xml">
-      <configuration name="Ex_6" configurationId="JUnit" />
+    <history-entry file="FourthTest_testTwoArticlesSaving - 2018.12.14 at 18h 14m 20s.xml">
+      <configuration name="FourthTest.testTwoArticlesSaving" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ex_6 - 2018.12.12 at 13h 21m 18s.xml">
-      <configuration name="Ex_6" configurationId="JUnit" />
+    <history-entry file="FourthTest_testTwoArticlesSaving - 2018.12.14 at 18h 24m 22s.xml">
+      <configuration name="FourthTest.testTwoArticlesSaving" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ex_6 - 2018.12.12 at 13h 44m 20s.xml">
-      <configuration name="Ex_6" configurationId="JUnit" />
+    <history-entry file="FourthTest_testTwoArticlesSaving - 2018.12.14 at 18h 26m 18s.xml">
+      <configuration name="FourthTest.testTwoArticlesSaving" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ex_6 - 2018.12.12 at 13h 45m 39s.xml">
-      <configuration name="Ex_6" configurationId="JUnit" />
+    <history-entry file="FourthTest_testTwoArticlesSaving - 2018.12.14 at 18h 27m 59s.xml">
+      <configuration name="FourthTest.testTwoArticlesSaving" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ex_6 - 2018.12.12 at 13h 46m 34s.xml">
-      <configuration name="Ex_6" configurationId="JUnit" />
+    <history-entry file="FourthTest_testTwoArticlesSaving - 2018.12.14 at 18h 29m 45s.xml">
+      <configuration name="FourthTest.testTwoArticlesSaving" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -624,25 +649,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1604" height="876" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50513697" sideWeight="0.50321543" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25841185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19246298" sideWeight="0.49678457" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28562176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20565553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -657,6 +682,37 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966322" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25841185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966322" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1865285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -666,7 +722,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="7" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -675,162 +731,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="27" column="93" lean-forward="false" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
-          <folding>
-            <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeElementToLeft#0;class#TestBase#0" expanded="false" />
-            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FourthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#twoArticlesSaving#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#searchForArticleAndSaveTitle#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#addArticleToReadingListFirstTime#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#addOneMoreArticleToTheReadingList#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Ex_6.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThirdTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeElementToLeft#0;class#TestBase#0" expanded="false" />
-            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FourthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#twoArticlesSaving#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#searchForArticleAndSaveTitle#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#addArticleToReadingListFirstTime#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#addOneMoreArticleToTheReadingList#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="113" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ThirdTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#waitListOfResultsTexts#0;class#ThirdTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding>
-            <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeElementToLeft#0;class#TestBase#0" expanded="false" />
-            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ThirdTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#waitListOfResultsTexts#0;class#ThirdTest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,52 +744,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="32" column="71" lean-forward="false" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="110" lean-forward="false" selection-start-line="29" selection-start-column="110" selection-end-line="29" selection-end-column="110" />
           <folding>
-            <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeElementToLeft#0;class#TestBase#0" expanded="false" />
-            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -894,48 +769,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="72" lean-forward="false" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
-          <folding>
-            <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeElementToLeft#0;class#TestBase#0" expanded="false" />
-            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,56 +788,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="72" lean-forward="false" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeElementToLeft#0;class#TestBase#0" expanded="false" />
-            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,101 +863,219 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBasis.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MainClassTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ThirdTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/CoreTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Ex_7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="136">
+          <caret line="8" column="113" lean-forward="false" selection-start-line="8" selection-start-column="113" selection-end-line="8" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/ui/NavigationUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="75" lean-forward="false" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#waitListOfResultsTexts#0;class#ThirdTest#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/ui/SearchPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getResultSearchElement#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#initSearchInput#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#typeSearchLine#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#waitForSearchResultsList#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#waitForSpecificSearchResult#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#waitForCancelButtonToAppear#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#waitForCancelButtonToDisappear#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#clickCancelSearchButton#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#clickByArticleWithSubstring#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#waitForSearchResultAndClickOneOfThem#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#waitForSearchResultAndClickOneOfThem#1;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#checkIfMoreThenOneSearchResultPresent#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#assertTextSearchPresentsInTheSearchLine#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#findSearchResultsAndClickOneOfThem#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#waitForSearchREsultsDisappear#0;class#SearchPageObject#0" expanded="false" />
+            <element signature="method#waitForSearchResultsTitles#0;class#SearchPageObject#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getReadingBookNameXPath#0;class#ArticlePageObject#0" expanded="false" />
+            <element signature="method#waitForTitleElement#0;class#ArticlePageObject#0" expanded="false" />
+            <element signature="method#getArticleTitle#0;class#ArticlePageObject#0" expanded="false" />
+            <element signature="method#swipeToFooter#0;class#ArticlePageObject#0" expanded="false" />
+            <element signature="method#assertArticleTitlePresentWithNULLTimeOut#0;class#ArticlePageObject#0" expanded="false" />
+            <element signature="method#assertArticleTitlePresent#0;class#ArticlePageObject#0" expanded="false" />
+            <element signature="method#addArticleToReadingListFirstTime#0;class#ArticlePageObject#0" expanded="false" />
+            <element signature="method#addArticleToReadingList#0;class#ArticlePageObject#0" expanded="false" />
+            <element signature="method#saveArticleTitle#0;class#ArticlePageObject#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/ui/MainPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="121" column="5" lean-forward="false" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+          <folding>
+            <element signature="method#waitForElementAndClick#0;class#MainPageObject#0" expanded="false" />
+            <element signature="method#waitForElementAndEnterText#0;class#MainPageObject#0" expanded="false" />
+            <element signature="method#waitForElementAndEnterText#1;class#MainPageObject#0" expanded="false" />
+            <element signature="method#waitForElementsDisappear#0;class#MainPageObject#0" expanded="false" />
+            <element signature="method#waitForElementDisappear#0;class#MainPageObject#0" expanded="false" />
+            <element signature="method#waitForElementPresents#0;class#MainPageObject#0" expanded="false" />
+            <element signature="method#waitForElementPresents#1;class#MainPageObject#0" expanded="false" />
+            <element signature="method#waitForElementAndClear#0;class#MainPageObject#0" expanded="false" />
+            <element signature="method#swipeUp#0;class#MainPageObject#0" expanded="false" />
+            <element signature="method#swipeUpToFindElement#0;class#MainPageObject#0" expanded="false" />
+            <element signature="method#swipeElementToLeft#0;class#MainPageObject#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#MainPageObject#0" expanded="false" />
+            <element signature="method#waitForElementAndGetAttribute#0;class#MainPageObject#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/ui/MyListsPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="docComment;class#MyListsPageObject#0" expanded="false" />
+            <element signature="method#getArticleTitleXPath#0;class#MyListsPageObject#0" expanded="false" />
+            <element signature="method#getReadingBookNameXPath#0;class#MyListsPageObject#0" expanded="false" />
+            <element signature="method#openReadingListFolderByName#0;class#MyListsPageObject#0" expanded="false" />
+            <element signature="method#openArticleInReadingList#0;class#MyListsPageObject#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyListsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Ex_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FourthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ArticleTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ArticleTests#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChangeAppConditionsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/CoreTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#tearDown#0;class#CoreTestCase#0" expanded="false" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyListsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SearchTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FourthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#twoArticlesSaving#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#searchForArticleAndSaveTitle#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#addArticleToReadingListFirstTime#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#addOneMoreArticleToTheReadingList#0;class#FourthTest#0" expanded="false" />
-            <element signature="method#deleteArticleFromReadingList#0;class#FourthTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="27" column="90" lean-forward="true" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Ex_6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThirdTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="176" column="10" lean-forward="true" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="24" />
+        <state relative-caret-position="198">
+          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="45" />
           <folding>
-            <element signature="method#waitForElementAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementDisappear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForWikiSearchAndClick#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchLineAndEnterText#1;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForSearchResultsList#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementPresents#2;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementsAndClickOnTheItem#0;class#TestBase#0" expanded="false" />
-            <element signature="method#waitForElementAndClear#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUp#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeUpToFindElement#0;class#TestBase#0" expanded="false" />
-            <element signature="method#swipeElementToLeft#0;class#TestBase#0" expanded="false" />
-            <element signature="method#isElementPresent#0;class#TestBase#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Ex_7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SetDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>

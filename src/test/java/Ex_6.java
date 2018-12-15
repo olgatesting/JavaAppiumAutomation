@@ -1,12 +1,7 @@
-import org.junit.Assert;
-import org.junit.Before;
+import lib.CoreTestCase;
+import lib.ui.ArticlePageObject;
+import lib.ui.SearchPageObject;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.ScreenOrientation;
-import org.openqa.selenium.WebElement;
-
-import java.util.List;
-import java.util.NoSuchElementException;
 
 /**
  * Created by User on 11.12.2018.
@@ -15,22 +10,18 @@ import java.util.NoSuchElementException;
  */
 
 
-public class Ex_6  extends TestBase{
+public class Ex_6  extends CoreTestCase{
     private static String searchText = "Java";
-    private String articlesTitlesID = "org.wikipedia:id/view_page_title_text";
-
+    private SearchPageObject searchPageObject;
+    private ArticlePageObject articlePageObject;
 
     @Test
-    public void assertTitlePresent() {
-        waitForWikiSearchAndClick();
-        waitForSearchLineAndEnterText(searchText);
-        List<WebElement> searchResults = waitForSearchResultsList();
-        waitForElementsAndClickOnTheItem(searchResults,0, 10);
-        assertElementPresent(By.id(articlesTitlesID));
-
-    }
-
-    protected void assertElementPresent(By by) {
-            waitForElementPresents(by, "Element"+by.toString()+" not found on the page", 0);
+    public void testTitlePresent() {
+        searchPageObject = new SearchPageObject(driver);
+        articlePageObject = new ArticlePageObject(driver);
+        searchPageObject.initSearchInput();
+        searchPageObject.typeSearchLine(searchText);
+        searchPageObject.waitForSearchResultAndClickOneOfThem();
+        articlePageObject.assertArticleTitlePresentWithNULLTimeOut();
     }
 }

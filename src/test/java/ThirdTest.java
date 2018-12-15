@@ -1,12 +1,7 @@
 import lib.CoreTestCase;
-import lib.ui.MainPageObject;
-import org.junit.Assert;
+import lib.ui.SearchPageObject;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.List;
 
 /**
@@ -17,26 +12,17 @@ import java.util.List;
  */
 public class ThirdTest extends CoreTestCase {
     private static String searchText = "sun";
-    private String searchResultTextsXPath = "//*[contains(@resource-id,'org.wikipedia:id/page_list_item_title')]";
-    private MainPageObject mainPageObject;
+    private SearchPageObject searchPageObject;
 
-    @Override
-    protected void setUp() throws Exception {
-        super.setUp();
-        mainPageObject = new MainPageObject(driver);
-    }
-    @Override
-    protected void tearDown() throws Exception {
-        super.tearDown();
-    }
     @Test
     public void testSearchResults() {
-        mainPageObject.waitForWikiSearchAndClick();
-        mainPageObject.waitForSearchLineAndEnterText(searchText);
-        List<WebElement> list = mainPageObject.waitListOfResultsTexts(By.xpath(searchResultTextsXPath),"search results not found");
+       searchPageObject = new SearchPageObject(driver);
+       searchPageObject.initSearchInput();
+       searchPageObject.typeSearchLine(searchText);
+       List<WebElement> list = searchPageObject.waitForSearchResultsTitles();
        for (WebElement element: list) {
            String text = element.getAttribute("text").toString().toLowerCase();
-           Assert.assertTrue("there is no searchTextInTheResults", text.contains(searchText.toLowerCase()));
+           assertTrue("there is no searchTextInTheResults", text.contains(searchText.toLowerCase()));
            System.out.println("word "+ searchText + " presents in the text " + text);
        }
     }

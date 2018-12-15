@@ -1,19 +1,16 @@
 import lib.CoreTestCase;
-import lib.ui.*;
+import lib.ui.ArticlePageObject;
+import lib.ui.MyListsPageObject;
+import lib.ui.NavigationUI;
+import lib.ui.SearchPageObject;
 import org.junit.Test;
 
 /**
- * Created by User on 05.12.2018.
- Написать тест, который:
- 1. Сохраняет две статьи в одну папку
- 2. Удаляет одну из статей
- 3. Убеждается, что вторая осталась
- 4. Переходит в неё и убеждается, что title совпадает
+ * Created by User on 15.12.2018.
  */
-public class FourthTest extends CoreTestCase {
-
-    private static String searchText = "MayDay";
-    private static String readingBookName = "My first list";
+public class MyListsTests extends CoreTestCase {
+    private static String searchText;
+    private static String readingBookName ;
 
     private SearchPageObject searchPageObject;
     private ArticlePageObject articlePageObject;
@@ -22,6 +19,10 @@ public class FourthTest extends CoreTestCase {
 
     @Test
     public void testTwoArticlesSaving() {
+
+        searchText = "MayDay";
+        readingBookName = "My first list";
+
         searchPageObject = new SearchPageObject(driver);
         articlePageObject = new ArticlePageObject(driver);
         navigationUI = new NavigationUI(driver);
@@ -43,6 +44,6 @@ public class FourthTest extends CoreTestCase {
         myListsPageObject.openArticleInReadingList(firstArticleTitle);
         String actualArticleTitle = articlePageObject.saveArticleTitle();
 
-       assertTrue("titles not equal",actualArticleTitle.equals(firstArticleTitle));
+        assertTrue("titles not equal",actualArticleTitle.equals(firstArticleTitle));
     }
 }
