@@ -44,6 +44,6 @@ public class MyListsTests extends CoreTestCase {
         myListsPageObject.openArticleInReadingList(firstArticleTitle);
         String actualArticleTitle = articlePageObject.saveArticleTitle();
 
-        assertTrue("titles not equal",actualArticleTitle.equals(firstArticleTitle));
+        assertTrue("title of saved article and actual presented in the book list article are not equal",actualArticleTitle.equals(firstArticleTitle));
     }
 }
