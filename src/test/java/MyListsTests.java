@@ -27,11 +27,10 @@ public class MyListsTests extends CoreTestCase {
         articlePageObject = new ArticlePageObject(driver);
         navigationUI = new NavigationUI(driver);
         myListsPageObject = new MyListsPageObject(driver);
-
         searchPageObject.findSearchResultsAndClickOneOfThem(searchText,0);
+
         String firstArticleTitle = articlePageObject.saveArticleTitle();
         articlePageObject.addArticleToReadingListFirstTime(readingBookName);
-
         searchPageObject.findSearchResultsAndClickOneOfThem(searchText,2);
         String secondArticleTitle =  articlePageObject.saveArticleTitle();
         articlePageObject.addArticleToReadingList(readingBookName);
@@ -40,7 +39,6 @@ public class MyListsTests extends CoreTestCase {
 
         myListsPageObject.openReadingListFolderByName(readingBookName);
         myListsPageObject.SwipeByArticleAndDelete(secondArticleTitle);
-
         myListsPageObject.openArticleInReadingList(firstArticleTitle);
         String actualArticleTitle = articlePageObject.saveArticleTitle();
 

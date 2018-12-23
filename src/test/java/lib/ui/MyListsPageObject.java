@@ -1,7 +1,6 @@
 package lib.ui;
 
 import io.appium.java_client.AppiumDriver;
-import org.openqa.selenium.By;
 
 /**
  * Created by User on 13.12.2018.
@@ -11,8 +10,8 @@ public class MyListsPageObject extends MainPageObject{
         super(driver);
     }
     private static final
-    String READING_BOOK_NAME_X_PATH_TPL= "//*[contains(@text,'{SUBSTRING}')]",
-            ARTICLE_TITLE_XPATH_TPL= "//*[@text='{SUBSTRING}']";
+    String READING_BOOK_NAME_X_PATH_TPL= "xpath://*[contains(@text,'{SUBSTRING}')]",
+            ARTICLE_TITLE_XPATH_TPL= "xpath://*[@text='{SUBSTRING}']";
 
     /*TEMPLTES METHODS*/
     private static String getArticleTitleXPath(String substring) {
@@ -25,17 +24,17 @@ public class MyListsPageObject extends MainPageObject{
 
     public void SwipeByArticleAndDelete(String articleName) {
         waitForArticleToAppearByTitle(articleName);
-        this.swipeElementToLeft(By.xpath(getArticleTitleXPath(articleName)), "article should be swipe to be deleted not found");
-        this.waitForElementDisappear(By.xpath(getArticleTitleXPath(articleName)), "article should be deleted don't disappear", 5);
+        this.swipeElementToLeft(getArticleTitleXPath(articleName), "article should be swipe to be deleted not found");
+        this.waitForElementDisappear(getArticleTitleXPath(articleName), "article should be deleted don't disappear", 5);
     }
     public void openReadingListFolderByName(String readingBookName) {
-        waitForElementAndClick(By.xpath(getReadingBookNameXPath(readingBookName)));
+        waitForElementAndClick(getReadingBookNameXPath(readingBookName));
     }
     public void openArticleInReadingList(String articleTitle) {
-        waitForElementAndClick(By.xpath(getArticleTitleXPath(articleTitle)), "article not present", 5);
+        waitForElementAndClick(getArticleTitleXPath(articleTitle), "article not present", 5);
     }
     public void waitForArticleToAppearByTitle(String articleTitle) {
-        this.waitForElementPresents(By.xpath(getArticleTitleXPath(articleTitle)), "cannot find saved article by title",10);
+        this.waitForElementPresents(getArticleTitleXPath(articleTitle), "cannot find saved article by title",10);
     }
 
 }
